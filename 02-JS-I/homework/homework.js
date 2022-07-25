@@ -310,7 +310,7 @@ function esVocal(letra){
     return "Dato incorrecto";
   }
   const vocales = ['a', 'e', 'i', 'o', 'u'];
-  if(vocales.includes(letra.toLowerCase())) {
+  if(vocales.includes(letra)) {
     return "Es vocal";
   }
   return "Dato incorrecto";
